@@ -66,7 +66,7 @@ class Person extends Component {
           onClick={this.handleShowProfile}
           className="text-white p-4 border border-white rounded-full transition mb-5 ml-5 hover:bg-[#595858] "
         >
-          Show The Astronaut
+          {`${this.state.isShown ? "Hide" : "Show"} Astronaut`}
         </button>
       </>
     );
